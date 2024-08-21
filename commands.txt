@@ -1,3 +1,5 @@
+Creating a local repository on our PC.
+
 first we create a folder and then initiliaze git in the folder using
 "git init"
 2. we can check what files in the folder are not in the staging area by using "git status"
@@ -8,4 +10,6 @@ Staging area is important for us to figure out what files to commit and what not
 4. finally we can commit the staging files in the repository using -m is for message (git commit -m "Initial Commit" )
 5. We can then view the commits using "git log"
 
-6. We can go back to any version using git checkout
+6. "git diff filename" will let us know the difference in the file 
+
+7. We can go back to previous version of the file  using "git checkout filename"
