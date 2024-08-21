@@ -1,0 +1,11 @@
+first we create a folder and then initiliaze git in the folder using
+"git init"
+2. we can check what files in the folder are not in the staging area by using "git status"
+3. we can then stage them using "git add filename" or simple "git add ." to include all the files in the directory
+
+Staging area is important for us to figure out what files to commit and what not.
+
+4. finally we can commit the staging files in the repository using -m is for message (git commit -m "Initial Commit" )
+5. We can then view the commits using "git log"
+
+6. We can go back to any version using git checkout
