@@ -1,5 +1,5 @@
 #this is a comment
-
+#this file can be useful to ignore node modules some other stuff like api keys or anything which we donot want to upload to a repository
 #we can see gitignore templates in https://github.com/github/gitignore page
 
 #this is a wildacard to select all pdf files and ignore it
