@@ -1,0 +1,8 @@
+#this is a comment
+
+#we can see gitignore templates in https://github.com/github/gitignore page
+
+#this is a wildacard to select all pdf files and ignore it
+*.pdf
+
+ignoreApi.txt

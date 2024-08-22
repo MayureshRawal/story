@@ -3,13 +3,56 @@ Creating a local repository on our PC.
 first we create a folder and then initiliaze git in the folder using
 "git init"
 2. we can check what files in the folder are not in the staging area by using "git status"
-3. we can then stage them using "git add filename" or simple "git add ." to include all the files in the directory
 
+3. we can then stage them using "git add filename" or simple "git add ." to include all the files in the directory
 Staging area is important for us to figure out what files to commit and what not.
 
-4. finally we can commit the staging files in the repository using -m is for message (git commit -m "Initial Commit" )
+4. finally we can commit the staging files in the repository using (git commit -m "Initial Commit" ) -m is for message 
+
 5. We can then view the commits using "git log"
 
 6. "git diff filename" will let us know the difference in the file 
 
 7. We can go back to previous version of the file  using "git checkout filename"
+
+Pushing local to a remote github repository
+
+8. so we crate a repository in github first , then we use the command "origin" just means remote and is standard
+"git remote add origin  https://github.com/MayureshRawal/story.git"
+
+9. Create a branch for files to be pushed at we are creating main branch using - "git branch -M main"
+
+10. "git push -u origin main" means "git push -u remotename branchname", so we can push our files into the main branch using the git command. make sure you are logged into the git desktop app using the same id which has access to the repository or then invite as a collborator from the repository to your respective account.
+
+11. We can go to insights and network to see the commit timeline
+
+12. We can see the commits from the main code page and check what was changed.
+
+13. Working Directory > Staging Area> Local repository > Remote repository.
+
+14. so we can say Local repository is the .git folder on our pc, and the remote repository is github
+
+
+//git commands
+git init to initialize git
+
+git status to check if the files are changed or not
+
+git add . to stage the files
+
+git commit -m 'initial commit' to commit the files here -m stands for message
+
+git log to check the commits
+
+git diff filename to check the difference between two files
+
+git checkout filename to go to previous version of the files
+
+github create new repository and get a url
+
+git remote add origin "url of the repository" to link an online repository
+
+git branch -M main - to create a main branch -M stands for move
+
+git push -u origin main to push the local repository to main branch on github -u stands for upstream means pushing local branch to remote origin branch
+
