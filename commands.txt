@@ -54,5 +54,13 @@ git remote add origin "url of the repository" to link an online repository
 
 git branch -M main - to create a main branch -M stands for move
 
-git push -u origin main to push the local repository to main branch on github -u stands for upstream means pushing local branch to remote origin branch
+git push -u origin main to push the local repository to main branch on github -u stands for upstream means pushing local branch to remote origin branch, we have to use this command always after we commit in a local repository and then use this to push it online 
+
+git clone  url- to clone a remote repository to our local system - this can be done to improve the code remove a bug or just to have fun on our side.
+
+git branch branchname - to create a new branch
+
+git branch to view all the branches.
+
+git checkout branchname - can also help us switch the branch we want
 
